@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_trangChu"
+        android:title="Trang chủ"
+
+        />
+    <item
+        android:id="@+id/nav_giaoDich"
+        android:title="Giao dịch"
+
+        />
+    <item
+        android:id="@+id/nav_traCuu"
+        android:title="Tra Cứu"
+
+        />
+    <item
+        android:id="@+id/nav__caiDat"
+        android:title="Cài đặt"/>
+
+</menu>

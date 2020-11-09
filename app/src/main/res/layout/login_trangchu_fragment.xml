@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginTop="15dp"
+        android:hint="username" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUserName"
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtPassword"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_edt_login"
+        android:padding="15dp"
+        android:text="đăng nhập" />
+
+    <TextView
+        android:id="@+id/txtTitleDangKi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Chưa có tài khoản đăng kí ngay" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:textColor="#3300FF"
+        android:text="Đăng Kí"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDangKi"
+        android:layout_toRightOf="@+id/txtTitleDangKi"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        />
+</RelativeLayout>
